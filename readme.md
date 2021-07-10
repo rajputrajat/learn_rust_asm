@@ -14,14 +14,14 @@ cargo rustc --release -- --emit mir
 cargo rustc -- --emit mir
 ```
 
-## command to generate llvm-ir file -> .ir
+## command to generate llvm-ir file -> .ll
 
 ```bash
-cargo rustc --release -- --emit 
+cargo rustc --release -- --emit llvm-ir
 cargo rustc -- --emit llvm-ir
 ```
 
-## command to generate llvm-bc file -> *.?
+## command to generate llvm-bc file -> *.bc
 
 ```bash
 cargo rustc --release -- --emit llvm-bc
