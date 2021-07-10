@@ -1,0 +1,8 @@
+# Notes
+
+## command to generate asm file -> *.s
+
+```bash
+cargo rustc --release -- --emit asm
+cargo rustc -- --emit asm
+```
